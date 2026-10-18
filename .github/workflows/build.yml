@@ -28,3 +28,11 @@ jobs:
         run: |
           python -m pip install twine
           python -m twine check dist/*
+
+          
+      - name: Upload built package
+        uses: actions/upload-artifact@v4
+        with:
+          name: securitykit-dist
+          path: dist/
+
