@@ -13,5 +13,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.9"
 
+license = "MIT"
+
 [tool.setuptools]
 py-modules = ["securitykit"]
