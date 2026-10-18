@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "securitykit"
+version = "0.1.0"
+description = "A Python security analysis toolkit with ten modules"
+authors = [
+    { name = "Naksh Sunil Humbe" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
